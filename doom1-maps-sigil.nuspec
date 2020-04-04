@@ -12,7 +12,7 @@
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.1.0</version>
+    <version>1.1.0.20200404</version>
     <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>n3rd4i</owners>
@@ -30,152 +30,20 @@
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <docsUrl>https://doomwiki.org/wiki/SIGIL</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>doom1-maps-sigil maps doom1 wad</tags>
     <summary>doom1 maps</summary>
     <description>
 
-===========================================================================
-Primary purpose         : Single play, Co-op play, Deathmatch
-Advanced engine needed  : Limit-removing; playing E5 ingame requires
-                          either ZDoom or Eternity, though E5 is available
-                          as a separate add-on (SIGIL_COMPAT.wad) for vanilla.
-                          SIGIL.wad contains some maps, which may not be 100%
-                          vanilla compatible.
-===========================================================================
-Title                   : SIGIL
-Filename                : SIGIL.wad, SIGIL_COMPAT.wad
-                          (and SIGIL_SHREDS.wad/SIGIL_SHREDS_COMPAT.wad if purchased)
-Release date            : v1.0: May 1, 2019
-                        : v1.1: May 31,2019
-Version                 : 1.1
-Author                  : John Romero
-Email Address           : john@romero.com
-Other WADs by Author    : DOOM.WAD, DOOM1.WAD, DOOM2.WAD, E1M8B.wad, E1M4B.wad
+    SIGIL (also styled SI6IL) is an episode WAD for Doom and Ultimate Doom that was released in limited editions on May 22, 2019, while the free release appeared on May 31, 2019. It was announced at Doom's 25th anniversary on December 10, 2018 by its designer, John Romero.
 
-Description             : Baphomet was only doing Satan's bidding by placing
-                          a powerful sigil in the teleporter out of E4M8 to
-                          bring you back to Hell. Somehow they didn't
-                          understand that you're the reason they failed in the
-                          first place.
+    Although billed as a megawad with 18 maps, Romero clarified in an interview[1] that each of the nine single-player levels includes a separate deathmatch arena, making it a standard episode. The levels were created using Doom Builder 2.
 
-                          It's time to trash the place with your arsenal, get out
-                          of Hell, and back to Earth to face the more advanced
-                          demons that were sent ahead.
+    SIGIL was named as a runner-up at the 2019 Cacowards, although in a break from tradition, its write-up was not contained to the sidebar, instead sharing a "Runner-up Spotlight" page with Doom 3: Phobos.
 
-                          Lock and load. Rip and tear.
-
-Additional Credits to   : Technical Diligence and Testing:
-                               Boris Klimes
-                               Xaser
-                               Kurt Baumgardner
-                               Flambeau
-                               keyboard_doomer
-
-                          Artist:
-                               Christopher Lovell
-
-                          MIDI Music:
-                               James Paddock
-
-                          MP3 Music:
-                               Buckethead
-
-===========================================================================
-* What is included *
-
-New levels              : 18 (Single-player and Deathmatch areas in each level WAD)
-Sounds                  : No
-Music                   : No
-Graphics                : Yes
-Dehacked/BEX Patch      : Yes
-Demos                   : Yes
-Other                   : No
-Other files required    : None
-
-
-* Play Information *
-
-Game                    : Doom
-Map #                   : E5M1-E5M9 (SIGIL.wad)
-                        : E3M1-E3M9 (SIGIL_COMPAT.wad)
-Single Player           : Yes
-Cooperative 2-4 Player  : Yes
-Deathmatch 2-4 Player   : Yes
-Other game styles       : None
-Difficulty Settings     : Yes
-
-While in deathmatch maps, two players can agree to open the single-player area by flipping
-one switch each at the same time to open a teleporter. Going through the teleporter will
-take each player into the single-player area and permanently keep the teleporter open to
-allow players to go between deathmatch and single-player maps.
-
-
-* Construction *
-
-Base                    : Hell
-Build Time              : One year, part-time
-Editor(s) used          : Doom Builder 2, Slade
-May Not Run With...     : Versions of Doom prior to 1.9
-
-
-* Map Names *
-
-E5M1: "Baphomet's Demesne"
-E5M2: "Sheol"
-E5M3: "Cages of the Damned"
-E5M4: "Paths of Wretchedness"
-E5M5: "Abaddon's Void"
-E5M6: "Unspeakable Persecution"
-E5M7: "Nightmare Underworld"
-E5M8: "Halls of Perdition"
-E5M9: "Realm of Iblis"
-
-* Buckethead Music Names *
-
-E5M1: Romero One Mind Any Weapon
-E5M2: 13th Floor
-E5M3: Buildor 2
-E5M4: The Patrolman
-E5M5: Cold Frost part 6
-E5M6: Melting Man part 2
-E5M7: Far 5
-E5M8: Poseidon 4-6
-E5M9: Fastpass
-
-* MIDI Music Names *
-
-E5M1: Hate Machine
-E5M2: You Ain't the Boss O' Me
-E5M3: Quell the Beast
-E5M4: Riot Squadron
-E5M5: Alice
-E5M6: Besieged City
-E5M7: Watching You
-E5M8: Easel
-E5M9: Adrenaline in the Blood
-
-
-* Copyright / Permissions *
-
-Authors may NOT use the contents of this file as a base for modification or
-reuse without explicit permission of the original mappers.  Permissions
-have been obtained from original authors for any of their resources modified
-or included in this file.
-
-You MAY distribute this file, provided you include this text file, with no
-modifications.  You may distribute this file in any electronic format (BBS,
-Diskette, CD, etc) as long as you include this file intact.  I have
-received permission from the original authors of any modified or included
-content in this file to allow further distribution.
-
-
-* Where to get the file that this text file describes *
-
-The Usual: ftp://archives.3dgamers.com/pub/idgames/ and mirror mazes
-Web sites: http://rome.ro/
+    On December 11, 2019, Bethesda announced support for SIGIL as the first in a series of curated community WADs to be featured as an add-on for the Doom Classic Unity port, added alongside the official Final Doom and No Rest for the Living.[2] The first version of the game allowing users to download SIGIL was released as an update on January 9, 2020.
 
       </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
