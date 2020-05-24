@@ -1,11 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.romerogames.ie/s/SIGIL_V1_1.zip'
+$url        = 'https://www.romerogames.ie/s/SIGIL_v1_21.zip'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = "$(Join-Path $toolsDir wad)"
   url           = $url
-  checksum      = 'A09A65A2084C30798B39AEEA08E895095B0A59A44552010D834D169BA2E3287B'
+  checksum      = 'BA1EC3E88EF4F5D7D805E0F3930DCF424A6C03C9976AB422BA17C9C2F8B06BD1'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs

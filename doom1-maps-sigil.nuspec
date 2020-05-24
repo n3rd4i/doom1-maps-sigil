@@ -1,19 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
-<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
-    <!-- This section is about this package, although id and version have ties back to the software -->
-    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
-    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
     <id>doom1-maps-sigil</id>
-    <!-- version should MATCH as closely as possible with the underlying software -->
-    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
-    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.1.0.20200404</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <version>1.21.0</version>
+    <packageSourceUrl>https://github.com/n3rd4i/doom1-maps-sigil</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>n3rd4i</owners>
     <!-- ============================== -->
@@ -24,7 +16,7 @@
     <authors>romero</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.romerogames.ie/si6il</projectUrl>
-    <iconUrl>https://cdn.statically.io/img/upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg</iconUrl>
+    <iconUrl>https://cdn.statically.io/img/static1.squarespace.com/static/55e0e96be4b04ea8f08299d0/t/5c0e3979758d469c148d8fe8/1557600470344/?format=500w</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
@@ -45,7 +37,7 @@
 
     On December 11, 2019, Bethesda announced support for SIGIL as the first in a series of curated community WADs to be featured as an add-on for the Doom Classic Unity port, added alongside the official Final Doom and No Rest for the Living.[2] The first version of the game allowing users to download SIGIL was released as an update on January 9, 2020.
 
-      </description>
+    </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->
   </metadata>
