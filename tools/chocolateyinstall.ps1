@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.romerogames.ie/s/SIGIL_v1_21.zip'
+$url        = 'https://romero.com/s/SIGIL_v1_21.zip'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = "$(Join-Path $toolsDir wad)"
